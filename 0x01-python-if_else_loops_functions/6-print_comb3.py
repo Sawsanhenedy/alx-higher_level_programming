@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-for i in range(10):
-for j in range(i, 10):
-if i < j:
-print("{}{}".format(i, j), end="\n"if i == 8 and j == 9 else ", ")
+for d1 in range(0, 10):
+for d2 in range(d1 + 1, 10):
+if d1 == 8 and d2 == 9:
+    print("{}{}".format(d1, d2))
+else:
+    print("{}{}".format(d1, d2), end=", ")
