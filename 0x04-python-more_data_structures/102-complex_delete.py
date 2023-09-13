@@ -6,4 +6,3 @@ _dictionary, value):
             del a_dictionary[value_dic]
 
     return (a_dictionary)
-
