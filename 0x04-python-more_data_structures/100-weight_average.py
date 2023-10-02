@@ -1,8 +1,9 @@
+def weight_average(my_list=[]):
 ght_average(my_list=[]):
-    if not my_list:
-        return 0
+if not my_list:
+return 0
 
-    num = 0
+num = 0
     den = 0
 
     for tup in my_list:
